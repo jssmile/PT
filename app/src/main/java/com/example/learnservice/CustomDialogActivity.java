@@ -78,7 +78,7 @@ public class CustomDialogActivity extends Activity {
 
             @Override
             public void onNothingSelected(AdapterView arg0) {
-                Toast.makeText(CustomDialogActivity.this, "你他媽根本沒選", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CustomDialogActivity.this, "你沒選!!", Toast.LENGTH_SHORT).show();
             }
         });
     }
