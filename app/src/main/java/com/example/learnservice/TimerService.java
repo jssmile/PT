@@ -24,7 +24,7 @@ public class TimerService extends Service {
 
     static State mState = State.Stopped;
 
-    private static String stringRemainTimer = "00:00:05";
+    private static String stringRemainTimer = "00:00:10";
     private static int remainSeconds;
     private int finalSeconds;
     private Boolean isRun = true;

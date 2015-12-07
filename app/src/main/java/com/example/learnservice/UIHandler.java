@@ -20,8 +20,9 @@ public class UIHandler extends Handler {
 		 this.mActivity.setRemainTimeText(text);
 		 
 		 if (text.equals(finalReaminTime)){      //時間倒數到00:00:00
-			 this.mActivity.ShowMyNot();
-			 this.mActivity.showvideo();
+			 //this.mActivity.ShowMyNot();
+			 //this.mActivity.showvideo();
+			 this.mActivity.showMsg();
 		 }
 	 }
 }
